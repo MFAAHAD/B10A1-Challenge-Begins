@@ -87,6 +87,99 @@ body{
 height: 66px;
 margin-top: 30px;
 }
-
-
 /* banner section styles ends here */
+
+/* why web development section styles starts here */
+.development-container{
+    width: 946px;
+    height: 1435px;
+    background-color: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    border-radius: 16px;
+    
+}
+
+
+.web-text{
+    width: 852px;
+    margin: 80px auto;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.web-text>h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.web-text>p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.do-code{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 32px;
+}
+
+.do-code-content, .help-people, .do-code2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+}
+
+.do-code-content{
+    padding: 48px;
+    background-image: linear-gradient(to right,#FFFFFFFF,#FFFFFF00);
+    border-radius: 16px;
+}
+
+.help-people{
+    padding: 48px;
+    background-image: linear-gradient(to left,#FFFFFFFF,#FFFFFF00);
+    border-radius: 16px;
+}
+
+.do-code2{
+    padding: 48px;
+    background-image: linear-gradient(to right,#FFFFFFFF,#FFFFFF00);
+    border-radius: 16px;
+}
+
+.do-code-text{
+    Width: 400px;
+    Height: 220px;
+}
+
+.do-code-text>h3{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.do-code-text>p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.do-code-text>a>button{
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(13, 19, 33);
+    padding: 12px 20px;
+}
+/* why web development section styles starts here */
