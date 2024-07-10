@@ -308,3 +308,71 @@ margin-top: 30px;
     font-weight: 700;
 }
 /* my current target section styles ends here */
+/* i need support section styles starts here */
+
+.need-support-container{
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    margin: 80px auto;
+    margin-top: 0px;
+    background-image: url(../assets/handshake.jpg);
+    background-color: rgba(7, 2, 17, 0.5);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.need-support-text h1{
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.need-support-text p{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.need-support-feedback{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.need-support-feedback textarea{
+    width: 548px;
+    border: none;
+    border-radius: 8px;
+    resize: none;
+    padding: 14px;  
+}
+
+textarea::placeholder{
+    color: rgba(13, 19, 33, 0.4);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.need-support-feedback input{
+    width: 120px;
+    height: 58px;
+    border: none;
+    border-radius: 8px;
+    padding: 17px 20px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+/* i need support section styles ends here */
