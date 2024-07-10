@@ -235,10 +235,10 @@ margin-top: 30px;
     
 }
 
-.my-inspiration-video .video {
-    padding: 32px;
+.my-inspiration-video iframe  {
+    padding: 20px;
     border: 2px solid rgb(13 19 33 / 0.1);
-    border-radius: 16px;
+    border-radius: 35px;
 }
 /* my inspiration section styles ends here */
 
