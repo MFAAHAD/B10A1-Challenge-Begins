@@ -237,5 +237,74 @@ margin-top: 30px;
     border: 2px solid rgb(13 19 33 / 0.1);
     border-radius: 16px;
 }
-
 /* my inspiration section styles ends here */
+
+
+/* my current target section styles starts here */
+
+.my-current-container{
+    width: 1140px;
+    height: 465px;
+    margin: 0px auto;
+}
+.my-current-text{
+    text-align: center;
+}
+
+.my-current-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.my-current-text p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 48px;
+}
+
+.my-current-content{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+.my-current-html{
+    background-color: rgba(255, 76, 30, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.my-current-css{
+    background-color: rgba(0, 76, 232, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+.my-current-java{
+    background-color: rgba(255, 223, 0, 0.05);
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.my-current-html h1, .my-current-css h1, .my-current-java h1{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.my-current-html p, .my-current-css p, .my-current-java p{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: justify;
+    margin-bottom: 24px;
+}
+
+.my-current-html a, .my-current-css a, .my-current-java a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+/* my current target section styles ends here */
